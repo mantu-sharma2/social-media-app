@@ -1,0 +1,93 @@
+.App-title {
+  margin: 5px;
+  text-align: center;
+  text-shadow: 2px 2px #edaeae;
+  .h1 {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+  /* background-color: rgb(202, 214, 214); */
+}
+.App {
+  margin: 20px;
+}
+.Navbar {
+  margin: 5px;
+  padding: 5px;
+  .Navbar-profile {
+    height: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    background-color: #cab5b5;
+    /* float: left; */
+    align-items: center;
+    justify-content: space-between;
+    .nav-right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .nav-right button {
+      padding: 10px;
+      margin: 3px;
+    }
+    .nav-left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.PostCard {
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .right {
+      padding-right: 60%;
+    }
+  }
+
+  .footer {
+    border: 1px solid rgb(210, 206, 206);
+    padding-left: 30%;
+    padding-right: 30%;
+    display: flex;
+    /* float: left; */
+    align-items: center;
+    justify-content: space-between;
+  }
+  .body {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+.Body {
+  display: flex;
+  margin: 10px;
+  .left {
+    flex: 1;
+    background-color: #e0e0e0;
+    margin: 5px;
+    padding: 5px;
+    display: grid;
+    .xxx {
+      padding: 3px;
+      margin: 3px;
+      border: 1px solid rgb(117, 116, 116);
+    }
+  }
+  .right {
+    flex: 1;
+    background-color: #e0e0e0;
+    margin: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+}
