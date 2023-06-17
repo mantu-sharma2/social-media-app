@@ -44,12 +44,18 @@
   margin: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  border: 1px solid rgb(184, 182, 182);
   .head {
     display: flex;
     align-items: center;
     justify-content: center;
     .right {
-      padding-right: 60%;
+      display: grid;
+
+      padding-right: 30%;
+      .time {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
     }
   }
 
@@ -58,9 +64,18 @@
     padding-left: 30%;
     padding-right: 30%;
     display: flex;
-    /* float: left; */
     align-items: center;
     justify-content: space-between;
+    .likes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .comment-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
   .body {
     padding-left: 10%;

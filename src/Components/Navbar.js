@@ -1,6 +1,7 @@
 import React from "react";
 import user_profile from "./Icons/icons8-avatar-100-user-profile.png";
 import "./CSS/Header.css";
+// import { ClickedProfilePic } from "./HandleClicks";
 const Navbar = () => {
   return (
     <div className="Navbar">
